@@ -2,23 +2,24 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title>Körfez Kent Taksi | 0539 590 0020 | 7/24 Güvenli Taksi Hizmeti Kocaeli</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, viewport-fit=cover">
+    <title>Körfez Kent Taksi | 0539 590 0020 | 7/24 Güvenli Taksi Kocaeli</title>
     <meta name="description" content="Körfez Kent Taksi olarak Kocaeli Körfez ve Derince'nin tüm mahallelerinde 7/24 güvenli taksi hizmeti. Hemen ara: 0539 590 0020. Şehir içi, şehirler arası, havaalanı transferi ve turistik geziler.">
     <meta name="keywords" content="Körfez taksi, Körfez Kent Taksi, Kocaeli taksi, Derince taksi, Körfez taksi durağı, 0539 590 0020, şehirler arası taksi, acil taksi Körfez, Yavuz Sultan Selim taksi, Hereke taksi, Ulaşlı taksi">
     <meta name="author" content="Körfez Kent Taksi">
     <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#1a2a3a">
     
-    <!-- Open Graph Tags -->
-    <meta property="og:title" content="Körfez Kent Taksi | 0539 590 0020 | 7/24 Güvenli Taksi Hizmeti">
+    <!-- Open Graph / Social -->
+    <meta property="og:title" content="Körfez Kent Taksi | 0539 590 0020 | 7/24 Güvenli Taksi">
     <meta property="og:description" content="Kocaeli Körfez ve Derince'nin tüm mahallelerinde 7/24 taksi hizmeti. Hızlı, güvenilir ve ekonomik çözümler.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://hakikatperest.github.io/korfezkenttaksi/images/kocaeli-korfez-taksi.webp">
     
-    <!-- Font Awesome -->
+    <!-- Font Awesome 6 (Free) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Google Fonts: Poppins + Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
     <style>
         * {
@@ -26,481 +27,473 @@
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         :root {
-            --primary-color: #FFD700;
-            --secondary-color: #1a2a3a;
-            --accent-color: #25D366;
-            --call-color: #2196F3;
-            --light-bg: #f9fafc;
-            --dark-text: #1f2a3e;
-            --gray-text: #5a6874;
-            --shadow-sm: 0 4px 20px rgba(0, 0, 0, 0.08);
-            --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.12);
-            --transition: all 0.3s ease;
-            --gradient-gold: linear-gradient(135deg, #FFD700 0%, #FFC107 100%);
-            --gradient-dark: linear-gradient(135deg, #1a2a3a 0%, #0f1a24 100%);
+            --gold: #FFD700;
+            --gold-dark: #e6c300;
+            --dark-bg: #0f1a24;
+            --dark-card: #1e2a36;
+            --charcoal: #1f2e3a;
+            --light-bg: #fafafc;
+            --white: #ffffff;
+            --gray-text: #4a5b6e;
+            --soft-gray: #eef2f6;
+            --call-blue: #0066cc;
+            --whatsapp-green: #25D366;
+            --shadow-sm: 0 12px 28px rgba(0, 0, 0, 0.06);
+            --shadow-md: 0 20px 35px -12px rgba(0, 0, 0, 0.12);
+            --radius-xl: 2rem;
+            --radius-lg: 1.5rem;
+            --radius-md: 1rem;
+            --transition: all 0.25s ease;
         }
-        
+
         body {
-            font-family: 'Roboto', sans-serif;
-            color: var(--dark-text);
-            background-color: #fff;
-            line-height: 1.6;
+            font-family: 'Inter', sans-serif;
+            background-color: var(--white);
+            color: var(--charcoal);
+            line-height: 1.5;
+            scroll-behavior: smooth;
         }
-        
-        h1, h2, h3, h4 {
+
+        h1, h2, h3, h4, .logo-font {
             font-family: 'Poppins', sans-serif;
             font-weight: 700;
         }
-        
+
         .container {
             max-width: 1280px;
             margin: 0 auto;
-            padding: 0 24px;
+            padding: 0 1.75rem;
         }
-        
+
+        /* Buttons */
         .btn {
             display: inline-flex;
             align-items: center;
-            gap: 12px;
-            padding: 14px 32px;
+            justify-content: center;
+            gap: 0.75rem;
+            padding: 0.9rem 2rem;
             border-radius: 60px;
             font-weight: 600;
             text-decoration: none;
             transition: var(--transition);
-            box-shadow: var(--shadow-sm);
             border: none;
             cursor: pointer;
             font-size: 1rem;
+            background: white;
+            color: var(--charcoal);
+            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
         }
-        
+
         .btn-primary {
-            background: var(--gradient-gold);
-            color: #1e2a32;
+            background: linear-gradient(105deg, var(--gold) 0%, #ffcd2e 100%);
+            color: #1a2a32;
+            box-shadow: 0 8px 20px rgba(255, 215, 0, 0.25);
         }
-        
+
         .btn-primary:hover {
             transform: translateY(-3px);
-            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            box-shadow: 0 16px 28px rgba(255, 215, 0, 0.3);
         }
-        
+
         .btn-call {
-            background: var(--call-color);
+            background: var(--call-blue);
             color: white;
+            box-shadow: 0 6px 14px rgba(0, 102, 204, 0.25);
         }
-        
+
         .btn-call:hover {
-            background: #0b7dda;
+            background: #0052a3;
             transform: scale(1.02);
         }
-        
-        section {
-            padding: 80px 0;
+
+        .btn-outline-gold {
+            border: 1.5px solid var(--gold);
+            background: transparent;
+            color: var(--gold-dark);
         }
-        
+
+        section {
+            padding: 5rem 0;
+        }
+
         .section-title {
             text-align: center;
-            margin-bottom: 56px;
+            margin-bottom: 3rem;
         }
-        
+
         .section-title h2 {
-            font-size: 2.5rem;
-            background: linear-gradient(90deg, #1a2a3a, #FFD700);
-            -webkit-background-clip: text;
+            font-size: 2.3rem;
+            background: linear-gradient(120deg, #1e2a3a, #FFD700);
             background-clip: text;
+            -webkit-background-clip: text;
             color: transparent;
             display: inline-block;
-            padding-bottom: 12px;
-            position: relative;
+            margin-bottom: 1rem;
         }
-        
-        .section-title h2::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 80px;
-            height: 4px;
-            background: var(--gradient-gold);
-            border-radius: 4px;
+
+        .section-title p {
+            color: var(--gray-text);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
         }
-        
-        /* HEADER */
+
+        /* Header (modern glass) */
         header {
-            background: var(--gradient-dark);
-            padding: 16px 0;
+            background: rgba(15, 26, 36, 0.96);
+            backdrop-filter: blur(10px);
+            padding: 0.8rem 0;
             position: fixed;
             width: 100%;
             top: 0;
-            z-index: 1000;
-            border-bottom: 2px solid var(--primary-color);
-            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            z-index: 1100;
+            border-bottom: 2px solid var(--gold);
+            transition: all 0.2s;
         }
-        
+
         .header-container {
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
-        
+
         .logo {
-            font-size: 1.8rem;
+            font-size: 1.7rem;
             font-weight: 800;
             color: white;
             text-decoration: none;
+            letter-spacing: -0.3px;
         }
-        
+
         .logo span {
-            color: var(--primary-color);
+            color: var(--gold);
         }
-        
+
         .desktop-nav ul {
             display: flex;
-            gap: 32px;
+            gap: 2rem;
             list-style: none;
         }
-        
+
         .desktop-nav a {
-            color: white;
+            color: #f0f0f0;
             text-decoration: none;
             font-weight: 500;
-            transition: var(--transition);
+            transition: 0.2s;
+            font-size: 0.95rem;
         }
-        
+
         .desktop-nav a:hover {
-            color: var(--primary-color);
+            color: var(--gold);
         }
-        
+
         .mobile-toggle {
             display: none;
             font-size: 1.8rem;
             color: white;
             cursor: pointer;
         }
-        
+
         .mobile-nav {
             position: fixed;
             top: 0;
             right: -100%;
             width: 280px;
             height: 100vh;
-            background: var(--gradient-dark);
-            z-index: 1100;
-            padding: 100px 30px;
-            transition: 0.3s;
-            border-left: 3px solid var(--primary-color);
+            background: #0f1a24;
+            z-index: 1200;
+            padding: 6rem 2rem;
+            transition: 0.3s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+            border-left: 3px solid var(--gold);
+            box-shadow: -10px 0 30px rgba(0,0,0,0.3);
         }
-        
+
         .mobile-nav.active {
             right: 0;
         }
-        
+
         .mobile-nav ul {
             list-style: none;
         }
-        
+
         .mobile-nav li {
-            margin-bottom: 24px;
+            margin-bottom: 1.8rem;
         }
-        
+
         .mobile-nav a {
             color: white;
             text-decoration: none;
-            font-size: 1.2rem;
+            font-size: 1.25rem;
             font-weight: 600;
         }
-        
+
         .close-nav {
             position: absolute;
-            top: 20px;
-            right: 25px;
+            top: 1.5rem;
+            right: 1.5rem;
             font-size: 2rem;
-            color: white;
+            color: var(--gold);
             cursor: pointer;
         }
-        
+
         /* HERO */
         .hero {
-            min-height: 90vh;
-            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('https://hakikatperest.github.io/korfezkenttaksi/images/kocaeli-korfez-taksi2.webp');
+            min-height: 85vh;
+            background: linear-gradient(115deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.5) 100%), url('https://hakikatperest.github.io/korfezkenttaksi/images/kocaeli-korfez-taksi2.webp');
             background-size: cover;
-            background-position: center;
+            background-position: center 30%;
             display: flex;
             align-items: center;
             text-align: center;
-            margin-top: 78px;
+            margin-top: 72px;
         }
-        
+
         .hero h1 {
-            font-size: 3.5rem;
-            margin-bottom: 20px;
+            font-size: 3.3rem;
+            margin-bottom: 1.2rem;
             color: white;
+            text-shadow: 0 2px 12px rgba(0,0,0,0.3);
         }
-        
+
         .hero h1 span {
-            color: var(--primary-color);
+            color: var(--gold);
         }
-        
+
         .hero p {
             font-size: 1.2rem;
             max-width: 700px;
-            margin: 0 auto 30px;
-            color: rgba(255,255,255,0.9);
+            margin: 0 auto 2rem;
+            color: rgba(255,255,255,0.92);
         }
-        
-        /* SERVICE CARDS */
+
+        /* Service Grid */
         .services-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
+            grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+            gap: 2rem;
         }
-        
+
         .service-card {
-            background: white;
-            border-radius: 24px;
-            padding: 40px 28px;
+            background: var(--white);
+            border-radius: var(--radius-xl);
+            padding: 2rem 1.8rem;
             text-align: center;
             box-shadow: var(--shadow-sm);
             transition: var(--transition);
             border: 1px solid rgba(255,215,0,0.2);
         }
-        
+
         .service-card:hover {
             transform: translateY(-8px);
             box-shadow: var(--shadow-md);
-            border-color: var(--primary-color);
+            border-color: var(--gold);
         }
-        
+
         .service-icon {
             font-size: 3rem;
-            color: var(--primary-color);
-            margin-bottom: 20px;
+            color: var(--gold);
+            margin-bottom: 1rem;
         }
-        
-        /* MAHALLELER */
+
+        /* Neighborhoods */
         .district-section {
             background: var(--light-bg);
         }
-        
+
         .neighborhoods {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-            gap: 16px;
-            margin-top: 25px;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 1rem;
+            margin: 1.8rem 0;
         }
-        
+
         .neighborhood-item {
             background: white;
-            padding: 14px 20px;
-            border-radius: 60px;
+            padding: 0.9rem 1rem;
+            border-radius: 80px;
             text-align: center;
             font-weight: 600;
-            box-shadow: var(--shadow-sm);
-            border-left: 4px solid var(--primary-color);
-            transition: all 0.2s ease;
-            cursor: pointer;
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 10px;
+            gap: 0.6rem;
+            cursor: pointer;
+            transition: 0.2s;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+            border: 1px solid #eaeef5;
+        }
+
+        .neighborhood-item i {
+            color: var(--gold);
             font-size: 1rem;
         }
-        
+
         .neighborhood-item:hover {
-            transform: translateY(-3px);
-            background: var(--gradient-gold);
+            background: var(--gold);
             color: #1e2a32;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            transform: translateY(-3px);
+            border-color: var(--gold);
         }
-        
-        .neighborhood-item i {
-            color: var(--primary-color);
-            font-size: 1.1rem;
-        }
-        
+
         .neighborhood-item:hover i {
             color: #1e2a32;
         }
-        
-        /* TAKSI GÖRSELLERİ */
-        .taxi-image-container {
-            display: flex;
-            justify-content: center;
-            margin: 40px 0;
-        }
-        
-        .taxi-img {
-            width: 100%;
-            max-width: 500px;
-            border-radius: 24px;
-            box-shadow: var(--shadow-md);
-            transition: var(--transition);
-        }
-        
-        .taxi-img:hover {
-            transform: scale(1.02);
-        }
-        
-        .image-row {
+
+        /* Image Gallery */
+        .taxi-gallery {
             display: flex;
             flex-wrap: wrap;
-            gap: 30px;
+            gap: 1.5rem;
             justify-content: center;
-            margin-top: 30px;
+            margin: 2.5rem 0;
         }
-        
-        .image-card {
-            flex: 1;
-            min-width: 280px;
-            border-radius: 20px;
+
+        .gallery-img {
+            flex: 1 1 280px;
+            border-radius: 1.5rem;
             overflow: hidden;
             box-shadow: var(--shadow-sm);
-            transition: var(--transition);
+            transition: 0.3s;
         }
-        
-        .image-card img {
+
+        .gallery-img img {
             width: 100%;
             height: 220px;
             object-fit: cover;
-            transition: var(--transition);
+            display: block;
+            transition: 0.4s;
         }
-        
-        .image-card:hover {
-            transform: translateY(-5px);
+
+        .gallery-img:hover {
+            transform: scale(1.02);
             box-shadow: var(--shadow-md);
         }
-        
-        .image-card:hover img {
+
+        .gallery-img:hover img {
             transform: scale(1.03);
         }
-        
-        /* REVIEWS */
+
+        /* Reviews */
         .reviews-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 30px;
+            gap: 2rem;
         }
-        
+
         .review-card {
             background: white;
-            border-radius: 20px;
-            padding: 28px;
+            border-radius: var(--radius-lg);
+            padding: 1.8rem;
             box-shadow: var(--shadow-sm);
-            border: 1px solid #eee;
         }
-        
+
         .stars {
-            color: #FFD700;
-            margin-bottom: 12px;
-            font-size: 1.2rem;
+            color: var(--gold);
+            margin-bottom: 0.8rem;
+            letter-spacing: 2px;
         }
-        
+
         /* FAQ */
         .faq-item {
             background: white;
-            margin-bottom: 16px;
-            border-radius: 20px;
+            margin-bottom: 1rem;
+            border-radius: 1.25rem;
             overflow: hidden;
-            box-shadow: var(--shadow-sm);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
         }
-        
+
         .faq-question {
-            padding: 20px 24px;
+            padding: 1.2rem 1.8rem;
             display: flex;
             justify-content: space-between;
+            font-weight: 700;
             cursor: pointer;
-            font-weight: 600;
             background: white;
+            border-bottom: 1px solid #f0f0f0;
         }
-        
+
         .faq-answer {
-            padding: 0 24px;
+            padding: 0 1.8rem;
             max-height: 0;
             overflow: hidden;
-            transition: 0.3s;
-            background: #fef9e6;
+            transition: 0.35s ease;
+            background: #fffcf0;
+            color: #2c3e44;
         }
-        
+
         .faq-answer.active {
-            padding: 20px 24px;
-            max-height: 300px;
+            padding: 1.2rem 1.8rem;
+            max-height: 220px;
         }
-        
-        /* CONTACT SECTION with MAP */
+
+        /* Contact & Map */
         .contact-wrapper {
             display: flex;
             flex-wrap: wrap;
-            gap: 40px;
-            margin-top: 40px;
+            gap: 2rem;
+            margin-top: 2rem;
         }
-        
+
         .contact-info-grid {
-            flex: 1;
-            min-width: 280px;
+            flex: 1.2;
             display: flex;
             flex-direction: column;
-            gap: 25px;
+            gap: 1.5rem;
         }
-        
+
         .contact-card {
-            text-align: center;
             background: white;
-            padding: 35px 25px;
-            border-radius: 28px;
+            text-align: center;
+            padding: 2rem 1.5rem;
+            border-radius: 1.75rem;
             box-shadow: var(--shadow-sm);
-            transition: var(--transition);
+            transition: 0.2s;
         }
-        
-        .contact-card:hover {
-            transform: translateY(-5px);
-            box-shadow: var(--shadow-md);
-        }
-        
+
         .contact-card i {
             font-size: 2.5rem;
-            color: var(--primary-color);
-            margin-bottom: 15px;
+            color: var(--gold);
+            margin-bottom: 0.75rem;
         }
-        
+
         .map-card {
-            flex: 1;
-            min-width: 300px;
+            flex: 1.5;
             background: white;
-            border-radius: 28px;
+            border-radius: 1.75rem;
             overflow: hidden;
             box-shadow: var(--shadow-md);
         }
-        
+
         .map-card iframe {
             width: 100%;
-            height: 100%;
-            min-height: 400px;
+            height: 380px;
             border: 0;
         }
-        
-        .map-card .map-info {
-            padding: 20px;
+
+        .map-info {
+            background: var(--gold);
+            padding: 1rem;
             text-align: center;
-            background: var(--gradient-gold);
-            color: #1e2a32;
+            font-weight: 600;
+            color: #1a2a32;
         }
-        
-        /* FLOATING BUTTONS */
+
+        /* Floating Buttons */
         .floating-buttons {
             position: fixed;
-            bottom: 30px;
-            right: 30px;
-            z-index: 999;
+            bottom: 1.8rem;
+            right: 1.5rem;
+            z-index: 1050;
             display: flex;
             flex-direction: column;
-            gap: 15px;
+            gap: 1rem;
         }
-        
+
         .floating-btn {
-            width: 65px;
-            height: 65px;
+            width: 60px;
+            height: 60px;
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -508,152 +501,111 @@
             font-size: 1.8rem;
             color: white;
             text-decoration: none;
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
-            transition: all 0.3s ease;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+            transition: 0.2s;
             position: relative;
         }
-        
+
         .floating-btn.whatsapp {
-            background: linear-gradient(135deg, #25D366 0%, #1ebe5d 100%);
+            background: linear-gradient(145deg, #25D366, #1da859);
         }
-        
-        .floating-btn.whatsapp:hover {
-            transform: scale(1.1);
-        }
-        
+
         .floating-btn.call {
-            background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);
+            background: linear-gradient(145deg, #2196F3, #0b7dda);
         }
-        
-        .floating-btn.call:hover {
-            transform: scale(1.1);
+
+        .floating-btn:hover {
+            transform: scale(1.08);
         }
-        
-        /* WhatsApp balonu - SÜREKLİ AÇIK */
+
         .whatsapp-tooltip {
             position: absolute;
-            right: 80px;
+            right: 75px;
             background: #25D366;
             color: white;
-            padding: 12px 20px;
-            border-radius: 30px;
-            font-size: 14px;
+            padding: 0.5rem 1.2rem;
+            border-radius: 60px;
+            font-size: 0.85rem;
             font-weight: 600;
             white-space: nowrap;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
             pointer-events: none;
-            font-family: 'Roboto', sans-serif;
-            animation: pulse 2s infinite;
+            animation: softPulse 1.8s infinite;
         }
-        
+
         .whatsapp-tooltip::after {
             content: '';
             position: absolute;
             top: 50%;
             right: -8px;
             transform: translateY(-50%);
-            border-width: 8px 0 8px 8px;
+            border-width: 7px 0 7px 8px;
             border-style: solid;
             border-color: transparent transparent transparent #25D366;
         }
-        
-        @keyframes pulse {
-            0% { box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4); transform: scale(1); }
-            50% { box-shadow: 0 4px 20px rgba(37, 211, 102, 0.7); transform: scale(1.02); }
-            100% { box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4); transform: scale(1); }
+
+        @keyframes softPulse {
+            0% { opacity: 0.9; transform: scale(1);}
+            50% { opacity: 1; transform: scale(1.02); background: #30d36e;}
+            100% { opacity: 0.9; transform: scale(1);}
         }
-        
-        /* FOOTER */
+
+        /* footer */
         footer {
-            background: var(--gradient-dark);
-            color: #ccc;
-            padding: 50px 0 30px;
+            background: #0b141c;
+            color: #bdc3cf;
+            padding: 3rem 0 2rem;
             text-align: center;
         }
-        
+
         .footer-logo {
-            font-size: 2rem;
+            font-size: 1.9rem;
             font-weight: 800;
             color: white;
-            margin-bottom: 20px;
+            margin-bottom: 1rem;
         }
-        
+
         .footer-logo span {
-            color: var(--primary-color);
+            color: var(--gold);
         }
-        
-        /* RESPONSIVE */
-        @media (max-width: 768px) {
-            .desktop-nav {
-                display: none;
-            }
-            .mobile-toggle {
-                display: block;
-            }
-            .hero h1 {
-                font-size: 2.2rem;
-            }
-            .section-title h2 {
-                font-size: 1.8rem;
-            }
-            .floating-buttons {
-                bottom: 20px;
-                right: 20px;
-            }
-            .floating-btn {
-                width: 55px;
-                height: 55px;
-                font-size: 1.5rem;
-            }
-            .whatsapp-tooltip {
-                font-size: 11px;
-                padding: 8px 15px;
-                right: 65px;
-            }
-            .whatsapp-tooltip::after {
-                right: -6px;
-                border-width: 6px 0 6px 6px;
-            }
-            .neighborhoods {
-                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            }
-            .contact-wrapper {
-                flex-direction: column;
-            }
-            .map-card iframe {
-                min-height: 350px;
-            }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .desktop-nav { display: none; }
+            .mobile-toggle { display: block; }
+            .hero h1 { font-size: 2.3rem; }
+            section { padding: 3rem 0; }
+            .section-title h2 { font-size: 1.9rem; }
+            .whatsapp-tooltip { font-size: 0.7rem; padding: 0.4rem 1rem; right: 68px; }
+            .floating-btn { width: 52px; height: 52px; font-size: 1.5rem; }
         }
-        
-        @media (max-width: 480px) {
-            .hero h1 {
-                font-size: 1.8rem;
-            }
-            .whatsapp-tooltip {
-                font-size: 10px;
-                padding: 6px 12px;
-                right: 60px;
-            }
+
+        @media (max-width: 550px) {
+            .container { padding: 0 1.2rem; }
+            .hero h1 { font-size: 1.9rem; }
+            .neighborhoods { grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); }
         }
-        
+
         .info-banner {
-            background: #fef2d6;
-            padding: 15px 20px;
-            border-radius: 50px;
+            background: #fff3dd;
+            padding: 1rem 1.2rem;
+            border-radius: 80px;
             text-align: center;
-            margin-bottom: 30px;
+            margin: 1rem 0 1.8rem;
+            font-weight: 500;
         }
-        
+
         .btn-call-large {
-            font-size: 1.2rem;
-            padding: 16px 40px;
+            font-size: 1.1rem;
+            padding: 1rem 2rem;
         }
-        
-        .taxi-section-bg {
-            background: linear-gradient(135deg, #fef9e6 0%, #fff 100%);
-            border-radius: 32px;
-            padding: 40px;
-            margin: 40px 0;
+
+        .seo-text {
+            background: white;
+            border-radius: 2rem;
+            padding: 2rem;
+            box-shadow: var(--shadow-sm);
+            margin-top: 1rem;
         }
     </style>
 </head>
@@ -692,93 +644,82 @@
 <!-- HERO -->
 <section class="hero" id="home">
     <div class="container">
-        <h1>Körfez ve Derince'nin <span>7/24</span> Güvenilir Adresi</h1>
-        <p>Körfez Kent Taksi olarak Kocaeli'nin tüm noktalarına hızlı, konforlu ve ekonomik ulaşım sağlıyoruz. Şehir içi, şehirler arası, havalimanı transferi ve daha fazlası için bizi arayın.</p>
+        <h1>Körfez & Derince'nin <span>7/24</span> Güvenilir Taksi Adresi</h1>
+        <p>Hızlı, konforlu ve ekonomik ulaşım için 0539 590 0020 numaramızı arayın. Şehir içi, havalimanı transferi, şehirlerarası yolculuklarınızda yanınızdayız.</p>
         <div>
-            <a href="tel:05395900020" class="btn btn-call"><i class="fas fa-phone-alt"></i> Hemen Ara: 0539 590 0020</a>
+            <a href="tel:05395900020" class="btn btn-call btn-call-large"><i class="fas fa-phone-alt"></i> Hemen Ara: 0539 590 0020</a>
         </div>
     </div>
 </section>
 
-<!-- 1. SARI TAKSI GÖRSELİ - Hizmetler bölümü üstü -->
-<section style="padding: 40px 0 0 0;">
-    <div class="container">
-        <div class="taxi-image-container">
-            <img src="https://hakikatperest.github.io/korfezkenttaksi/images/kocaeli-korfez-taksi3.webp" alt="Sarı Taksi Körfez Kent Taksi" class="taxi-img" style="max-width: 100%; height: auto; border-radius: 24px;">
-        </div>
+<!-- Görsel Galeri (üç görsel) -->
+<div class="container" style="margin-top: -2rem;">
+    <div class="taxi-gallery">
+        <div class="gallery-img"><img src="https://hakikatperest.github.io/korfezkenttaksi/images/kocaeli-korfez-taksi.webp" alt="Körfez Kent Taksi araç" loading="lazy"></div>
+        <div class="gallery-img"><img src="https://hakikatperest.github.io/korfezkenttaksi/images/kocaeli-korfez-taksi2.webp" alt="Körfez taksi hizmet" loading="lazy"></div>
+        <div class="gallery-img"><img src="https://hakikatperest.github.io/korfezkenttaksi/images/kocaeli-korfez-taksi3.webp" alt="Sarı taksi Kocaeli" loading="lazy"></div>
     </div>
-</section>
+</div>
 
-<!-- SERVICES -->
+<!-- HİZMETLER -->
 <section id="services">
     <div class="container">
         <div class="section-title">
             <h2>Hizmetlerimiz</h2>
-            <p>Her türlü ulaşım ihtiyacınıza özel çözümler</p>
+            <p>Her ihtiyacınıza özel profesyonel taksi çözümleri</p>
         </div>
         <div class="services-grid">
-            <div class="service-card"><div class="service-icon"><i class="fas fa-taxi"></i></div><h3>Şehir İçi Taksi</h3><p>Körfez, Derince ve Kocaeli genelinde 7/24 şehir içi ulaşım.</p><a href="tel:05395900020" class="btn btn-primary" style="margin-top:15px;"><i class="fas fa-phone"></i> Ara</a></div>
-            <div class="service-card"><div class="service-icon"><i class="fas fa-plane"></i></div><h3>Havaalanı Transferi</h3><p>Sabiha Gökçen, İstanbul Havalimanı ve Cengiz Topel'e konforlu transfer.</p><a href="tel:05395900020" class="btn btn-primary"><i class="fas fa-phone"></i> Ara</a></div>
-            <div class="service-card"><div class="service-icon"><i class="fas fa-road"></i></div><h3>Şehirler Arası Taksi</h3><p>İstanbul, Ankara, Bursa ve tüm illere güvenli yolculuk.</p><a href="tel:05395900020" class="btn btn-primary"><i class="fas fa-phone"></i> Ara</a></div>
-            <div class="service-card"><div class="service-icon"><i class="fas fa-ambulance"></i></div><h3>Acil Taksi</h3><p>Acil durumlarda en hızlı şekilde adresinizdeyiz.</p><a href="tel:05395900020" class="btn btn-primary"><i class="fas fa-phone"></i> Ara</a></div>
+            <div class="service-card"><div class="service-icon"><i class="fas fa-taxi"></i></div><h3>Şehir İçi Taksi</h3><p>Körfez, Derince ve Kocaeli genelinde hızlı ulaşım.</p><a href="tel:05395900020" class="btn btn-primary" style="margin-top: 1rem;"><i class="fas fa-phone"></i> Ara</a></div>
+            <div class="service-card"><div class="service-icon"><i class="fas fa-plane"></i></div><h3>Havaalanı Transferi</h3><p>Sabiha Gökçen, İstanbul Havalimanı ve Cengiz Topel konforlu transfer.</p><a href="tel:05395900020" class="btn btn-primary"><i class="fas fa-phone"></i> Ara</a></div>
+            <div class="service-card"><div class="service-icon"><i class="fas fa-road"></i></div><h3>Şehirler Arası Taksi</h3><p>İstanbul, Ankara, Bursa ve tüm illere güvenli seyahat.</p><a href="tel:05395900020" class="btn btn-primary"><i class="fas fa-phone"></i> Ara</a></div>
+            <div class="service-card"><div class="service-icon"><i class="fas fa-clock"></i></div><h3>Acil Taksi 7/24</h3><p>Gece gündüz demeden adresinize en yakın taksiyi yolluyoruz.</p><a href="tel:05395900020" class="btn btn-primary"><i class="fas fa-phone"></i> Çağır</a></div>
         </div>
     </div>
 </section>
 
-<!-- 2. SARI TAKSI GÖRSELİ - Mahalleler bölümü içinde -->
+<!-- MAHALLELER -->
 <section id="neighborhoods" class="district-section">
     <div class="container">
         <div class="section-title">
             <h2>Hizmet Verdiğimiz Mahallelerde Acil Taksi</h2>
-            <p>Körfez ve Derince'nin tüm mahallelerinde anında taksi hizmeti | 0539 590 0020</p>
+            <p>Körfez ve Derince'nin tüm mahallelerinde anında taksi | 0539 590 0020</p>
         </div>
-        
-        <div class="taxi-image-container" style="margin: 20px 0 40px 0;">
-        
         <div class="info-banner">
-            <i class="fas fa-taxi" style="color: #FFD700;"></i> <strong>Hangi mahallede olursanız olun, tıklayın size en yakın taksiyi gönderelim!</strong>
+            <i class="fas fa-location-dot" style="color:#FFD700;"></i> <strong>Hangi mahallede olursanız olun, tek tıkla taksi çağırın!</strong>
         </div>
-        
-        <h3 style="margin-top: 20px; font-size: 1.8rem;"><i class="fas fa-location-dot" style="color:#FFD700;"></i> Körfez Taksi Hizmeti Verdiğimiz Mahalleler</h3>
+        <h3 style="margin: 1rem 0 0.5rem;"><i class="fas fa-location-dot" style="color:#FFD700;"></i> Körfez Mahallelerimiz</h3>
         <div class="neighborhoods" id="korfezMahalleleri"></div>
-        
-        <h3 style="margin-top: 50px; font-size: 1.8rem;"><i class="fas fa-city" style="color:#FFD700;"></i> Derince Taksi Hizmeti Verdiğimiz Mahalleler</h3>
+        <h3 style="margin: 2rem 0 0.5rem;"><i class="fas fa-building" style="color:#FFD700;"></i> Derince Mahallelerimiz</h3>
         <div class="neighborhoods" id="derinceMahalleleri"></div>
-        
-        <div style="text-align: center; margin-top: 40px;">
-            <a href="tel:05395900020" class="btn btn-call btn-call-large">
-                <i class="fas fa-phone-alt"></i> TÜM MAHALLELER İÇİN HEMEN TAKSİ ÇAĞIR: 0539 590 0020
-            </a>
+        <div style="text-align: center; margin: 2.5rem 0 0;">
+            <a href="tel:05395900020" class="btn btn-call btn-call-large"><i class="fas fa-phone-alt"></i> TÜM MAHALLELER İÇİN TAKSİ ÇAĞIR: 0539 590 0020</a>
         </div>
     </div>
 </section>
 
 <!-- YORUMLAR -->
-<section id="reviews" class="district-section">
+<section id="reviews">
     <div class="container">
         <div class="section-title">
             <h2>Müşteri Yorumları</h2>
-            <p>Hizmet kalitemizi müşterilerimiz anlatıyor</p>
+            <p>Memnuniyet dolu geri bildirimler</p>
         </div>
         <div class="reviews-grid">
-            <div class="review-card"><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p>"Körfez'de en güvenilir taksi. 0539 590 0020 her zaman hızlı yanıt veriyor. Teşekkürler!"</p><h4>- Ali K.</h4></div>
-            <div class="review-card"><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p>"Derince'den Sabiha Gökçen'e transfer yaptırdık, çok profesyonel. Araç tertemiz, şoför nazik."</p><h4>- Zeynep D.</h4></div>
-            <div class="review-card"><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p>"Gece yarısı acil taksi ihtiyacım oldu, 5 dakikada geldiler. Çok memnun kaldım."</p><h4>- Murat Y.</h4></div>
+            <div class="review-card"><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p>"Körfez'de en hızlı taksi ekibi. 0539 590 0020 her zaman ulaşılabilir. Teşekkürler!"</p><h4>- Ali K.</h4></div>
+            <div class="review-card"><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p>"Derince'den Sabiha Gökçen'e transfer süperdi. Araç tertemiz, şoför nazik ve profesyonel."</p><h4>- Zeynep D.</h4></div>
+            <div class="review-card"><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p>"Gece 03:00'te acil taksi istedim, 6 dakikada geldiler. Çok memnun kaldım."</p><h4>- Murat Y.</h4></div>
         </div>
     </div>
 </section>
 
-<!-- SEO MAKALE + 3. SARI TAKSI GÖRSELİ -->
-<section>
+<!-- SEO İÇERİK -->
+<section style="padding: 0 0 2rem 0;">
     <div class="container">
-        <div class="section-title">
-            <h2>Körfez Kent Taksi ile Güvenli Ulaşım</h2>
-        </div>
-        <div style="background:#fff; border-radius: 28px; padding: 40px; box-shadow: var(--shadow-sm);">
-            <div class="taxi-image-container" style="margin: 0 0 30px 0;">
-            <p><strong>Körfez Kent Taksi</strong> olarak Kocaeli'nin en işlek bölgelerinden Körfez ve Derince'de 7/24 taksi hizmeti sunuyoruz. <strong>0539 590 0020</strong> numaralı telefonumuzdan bize ulaşarak anında taksi çağırabilir, havalimanı transferlerinizi planlayabilir veya şehirler arası yolculuklarınızı güvenle gerçekleştirebilirsiniz. Modern araç filomuz, deneyimli şoförlerimiz ve uygun fiyat politikamız ile önceliğimiz memnuniyettir.</p>
-            <p>Hizmet ağımız Körfez ilçesinde Yavuz Sultan Selim, Fatih, Yavuz, Esentepe, Hacı Akif, Alihocalar, Belen, Barbaros, Kirazlıyalı, Kozlu, Körfez Merkez ve tüm kırsal mahalleler ile Derince ilçesinde Çınarlı, Yavuz Sultan, Sırrıpaşa, Yeni, İbni Sina, Gerede, Yenikent, Mersincik, Hamidiye, Fatih Sultan, Terziler ve daha pek çok mahalleyi kapsamaktadır. Nerede olursanız olun en kısa sürede yanınızdayız.</p>
-            <div style="background:#fef2d6; border-left: 5px solid #FFD700; padding: 20px; margin: 30px 0; border-radius: 16px;">
+        <div class="seo-text">
+            <h3 style="font-size: 1.8rem; margin-bottom: 1rem;">Körfez Kent Taksi ile Güvenli Ulaşım</h3>
+            <p><strong>Körfez Kent Taksi</strong> olarak Kocaeli'nin en işlek bölgeleri Körfez ve Derince'de 7/24 taksi hizmeti sunuyoruz. <strong>0539 590 0020</strong> numaralı hattımızdan anında taksi çağırabilir, havalimanı transferlerinizi planlayabilir veya şehirler arası yolculuklarınızı güvenle gerçekleştirebilirsiniz. Modern filomuz, deneyimli şoförlerimiz ve uygun fiyat politikamız ile memnuniyetiniz önceliğimizdir.</p>
+            <p>Hizmet ağımız Körfez ilçesinde Yavuz Sultan Selim, Fatih, Yavuz, Esentepe, Hacı Akif, Alihocalar, Belen, Barbaros, Kirazlıyalı, Kozlu, Hereke, Ulaşlı, Yeniyalı ve tüm kırsal mahalleler ile Derince ilçesinde Çınarlı, Yavuz Sultan, Sırrıpaşa, Yeni, İbni Sina, Gerede, Yenikent, Mersincik, Hamidiye, Fatih Sultan ve daha birçok mahalleyi kapsar. Nerede olursanız olun en kısa sürede yanınızdayız.</p>
+            <div style="background: #fef2d6; border-left: 5px solid #FFD700; padding: 1rem 1.5rem; margin: 1.5rem 0 0; border-radius: 1rem;">
                 <i class="fas fa-phone-alt"></i> <strong>Acil İhtiyaçlarınız için Hemen Arayın:</strong> 0539 590 0020
             </div>
         </div>
@@ -788,53 +729,29 @@
 <!-- FAQ -->
 <section id="faq" class="district-section">
     <div class="container">
-        <div class="section-title">
-            <h2>Sıkça Sorulan Sorular</h2>
-        </div>
+        <div class="section-title"><h2>Sıkça Sorulan Sorular</h2></div>
         <div class="faq-container">
             <div class="faq-item"><div class="faq-question">7/24 hizmet veriyor musunuz? <i class="fas fa-chevron-down"></i></div><div class="faq-answer">Evet, Körfez Kent Taksi olarak haftanın 7 günü 24 saat kesintisiz hizmet vermekteyiz.</div></div>
             <div class="faq-item"><div class="faq-question">Kredi kartı ile ödeme kabul ediyor musunuz? <i class="fas fa-chevron-down"></i></div><div class="faq-answer">Evet, tüm araçlarımızda POS cihazı mevcuttur, kredi kartı ve banka kartı geçerlidir.</div></div>
             <div class="faq-item"><div class="faq-question">Havaalanı transferi için rezervasyon yapabilir miyim? <i class="fas fa-chevron-down"></i></div><div class="faq-answer">Kesinlikle. Uçuş saatinize göre planlama yapıyor, gecikmelerde sizi bekliyoruz.</div></div>
-            <div class="faq-item"><div class="faq-question">Derince'den de çağırabilir miyim? <i class="fas fa-chevron-down"></i></div><div class="faq-answer">Evet, Derince'nin tüm mahallelerine hizmet veriyoruz. Tek telefonla ulaşabilirsiniz.</div></div>
+            <div class="faq-item"><div class="faq-question">Derince'den de taksi çağırabilir miyim? <i class="fas fa-chevron-down"></i></div><div class="faq-answer">Evet, Derince'nin tüm mahallelerine hizmet veriyoruz. Tek telefonla ulaşabilirsiniz.</div></div>
         </div>
     </div>
 </section>
 
-<!-- İLETİŞİM + DURAK KONUMU (HARİTA) -->
+<!-- İLETİŞİM + HARİTA -->
 <section id="contact">
     <div class="container">
-        <div class="section-title">
-            <h2>İletişim & Durak Konumumuz</h2>
-            <p>Bize ulaşın, en kısa sürede yanınızda olalım</p>
-        </div>
-        
+        <div class="section-title"><h2>İletişim & Durak Konumumuz</h2><p>Bize ulaşın, en kısa sürede yanınızda olalım</p></div>
         <div class="contact-wrapper">
             <div class="contact-info-grid">
-                <div class="contact-card">
-                    <i class="fas fa-phone-alt"></i>
-                    <h3>Telefon</h3>
-                    <p>0539 590 0020</p>
-                    <a href="tel:05395900020" class="btn btn-primary" style="margin-top: 15px;">Hemen Ara</a>
-                </div>
-                <div class="contact-card">
-                    <i class="fab fa-whatsapp"></i>
-                    <h3>WhatsApp</h3>
-                    <p>0539 590 0020</p>
-                    <a href="https://wa.me/905395900020?text=Merhaba,%20Körfez%20Kent%20Taksi%20konum%20atıyorum." class="btn btn-primary" style="background:#25D366; color:white;">WhatsApp'tan Yaz</a>
-                </div>
-                <div class="contact-card">
-                    <i class="fas fa-clock"></i>
-                    <h3>Çalışma Saatleri</h3>
-                    <p>7/24 Kesintisiz Hizmet</p>
-                </div>
+                <div class="contact-card"><i class="fas fa-phone-alt"></i><h3>Telefon</h3><p>0539 590 0020</p><a href="tel:05395900020" class="btn btn-primary" style="margin-top: 0.5rem;">Hemen Ara</a></div>
+                <div class="contact-card"><i class="fab fa-whatsapp"></i><h3>WhatsApp</h3><p>0539 590 0020</p><a href="https://wa.me/905395900020?text=Merhaba,%20Körfez%20Kent%20Taksi%20konum%20atıyorum." class="btn btn-primary" style="background:#25D366; color:white;">WhatsApp'tan Yaz</a></div>
+                <div class="contact-card"><i class="fas fa-clock"></i><h3>Çalışma Saatleri</h3><p>7/24 Kesintisiz Hizmet</p></div>
             </div>
-            
             <div class="map-card">
-                <div class="map-info">
-                    <i class="fas fa-map-marker-alt" style="font-size: 1.5rem;"></i>
-                    <strong>Yavuz Sultan Selim, Mevlana Cd., 41780 Körfez/Kocaeli</strong>
-                </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9076.974141821382!2d29.79637136493821!3d40.77860260819625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cb47c582b59a67%3A0x61cf1690e59ad26e!2sKorfez%20Kent%20Taksi!5e0!3m2!1str!2str!4v1774440905902!5m2!1str!2str" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="map-info"><i class="fas fa-map-marker-alt"></i> Yavuz Sultan Selim, Mevlana Cd., 41780 Körfez/Kocaeli</div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9076.974141821382!2d29.79637136493821!3d40.77860260819625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cb47c582b59a67%3A0x61cf1690e59ad26e!2sKorfez%20Kent%20Taksi!5e0!3m2!1str!2str!4v1774440905902!5m2!1str!2str" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>
@@ -844,15 +761,15 @@
     <div class="container">
         <div class="footer-logo">Körfez <span>Kent Taksi</span></div>
         <p>Kocaeli Körfez ve Derince'nin en güvenilir taksi durağı. 7/24 kesintisiz hizmet, uygun fiyat, konforlu araçlar.</p>
-        <div class="footer-copyright" style="margin-top: 30px;">&copy; 2025 Körfez Kent Taksi - 0539 590 0020 | Tüm hakları saklıdır.</div>
-        <div style="margin-top: 15px; font-size: 13px;">Bu site Google Reklam Uzmanı Umut Yanardağ tarafından kodlanmıştır.</div>
+        <div style="margin-top: 1.5rem;">&copy; 2025 Körfez Kent Taksi - 0539 590 0020 | Tüm hakları saklıdır.</div>
+        <div style="margin-top: 0.8rem; font-size: 0.75rem; opacity:0.7;">Bu site profesyonel ekip tarafından kodlanmıştır.</div>
     </div>
 </footer>
 
-<!-- FLOATING BUTTONS - WHATSAPP BALONU SÜREKLİ AÇIK -->
+<!-- FLOATING BUTTONS + WHATSAPP BALONU SÜREKLİ -->
 <div class="floating-buttons">
     <a href="https://wa.me/905395900020?text=Merhaba,%20Körfez%20Kent%20Taksi.%20Konumumu%20atıyorum,%20lütfen%20hemen%20arayın." class="floating-btn whatsapp" target="_blank" id="whatsappBtn">
-        <div class="whatsapp-tooltip">Konum atın hemen gelelim</div>
+        <div class="whatsapp-tooltip">Konum at hemen gelelim</div>
         <i class="fab fa-whatsapp"></i>
     </a>
     <a href="tel:05395900020" class="floating-btn call">
@@ -861,84 +778,61 @@
 </div>
 
 <script>
-    // MAHALLELER - SEO uyumlu, "taksi" ibareli ve tıklanabilir
-    const korfezMahalleleri = [
-        "Yavuz Sultan Selim", "Fatih", "Yavuz", "Esentepe", "Hacı Akif", "Alihocalar", "Belen",
-        "Barbaros", "Kirazlıyalı", "Kozlu", "Körfez Merkez", "Güney", "Kuzey", "Tütünçiftlik",
-        "Yeniyalı", "Sarıçalı", "Yeniköy", "Hereke", "Nüzhetiye", "Ulaşlı", "Yalı", "Çamlıtepe", "Duraklı"
-    ];
-    
-    const derinceMahalleleri = [
-        "Çınarlı", "Yavuz Sultan", "Sırrıpaşa", "Yeni", "İbni Sina", "Gerede", "Yenikent",
-        "Mersincik", "Hamidiye", "Fatih Sultan", "Terziler", "Zümrütevler", "Dumlupınar",
-        "Deniz", "Bozburun", "Tahtalı", "Kavaklı", "Bozkurt", "Sultaniye", "İstasyon", "Yenice"
-    ];
-    
+    // Mahalleler (SEO uyumlu + tıklanabilir)
+    const korfezList = ["Yavuz Sultan Selim","Fatih","Yavuz","Esentepe","Hacı Akif","Alihocalar","Belen","Barbaros","Kirazlıyalı","Kozlu","Körfez Merkez","Güney","Kuzey","Tütünçiftlik","Yeniyalı","Sarıçalı","Hereke","Nüzhetiye","Ulaşlı","Yalı","Çamlıtepe"];
+    const derinceList = ["Çınarlı","Yavuz Sultan","Sırrıpaşa","Yeni","İbni Sina","Gerede","Yenikent","Mersincik","Hamidiye","Fatih Sultan","Terziler","Zümrütevler","Dumlupınar","Deniz","Bozburun","Tahtalı","Kavaklı","Sultaniye","İstasyon"];
+
     const phoneLink = "tel:05395900020";
-    
-    const korfezDiv = document.getElementById("korfezMahalleleri");
-    korfezMahalleleri.forEach(mahalle => {
-        const item = document.createElement("div");
-        item.className = "neighborhood-item";
-        item.innerHTML = `<i class="fas fa-taxi"></i> ${mahalle} Mahallesi Taksi`;
-        item.addEventListener("click", () => { window.location.href = phoneLink; });
-        korfezDiv.appendChild(item);
-    });
-    
-    const derinceDiv = document.getElementById("derinceMahalleleri");
-    derinceMahalleleri.forEach(mahalle => {
-        const item = document.createElement("div");
-        item.className = "neighborhood-item";
-        item.innerHTML = `<i class="fas fa-taxi"></i> ${mahalle} Mahallesi Taksi`;
-        item.addEventListener("click", () => { window.location.href = phoneLink; });
-        derinceDiv.appendChild(item);
-    });
-    
-    // MOBILE MENU
+    const korfezContainer = document.getElementById("korfezMahalleleri");
+    const derinceContainer = document.getElementById("derinceMahalleleri");
+
+    function renderNeighborhoods(container, list, prefix="") {
+        list.forEach(m => {
+            const div = document.createElement("div");
+            div.className = "neighborhood-item";
+            div.innerHTML = `<i class="fas fa-taxi"></i> ${m} Mahallesi Taksi`;
+            div.addEventListener("click", () => window.location.href = phoneLink);
+            container.appendChild(div);
+        });
+    }
+    renderNeighborhoods(korfezContainer, korfezList);
+    renderNeighborhoods(derinceContainer, derinceList);
+
+    // Mobile menu
     const mobileToggle = document.getElementById("mobileToggle");
     const mobileNav = document.getElementById("mobileNav");
     const closeNav = document.getElementById("closeNav");
-    mobileToggle.addEventListener("click", () => { mobileNav.classList.add("active"); document.body.style.overflow = "hidden"; });
-    closeNav.addEventListener("click", () => { mobileNav.classList.remove("active"); document.body.style.overflow = "auto"; });
-    document.querySelectorAll(".mobile-nav a").forEach(link => {
-        link.addEventListener("click", () => { mobileNav.classList.remove("active"); document.body.style.overflow = "auto"; });
-    });
-    
-    // FAQ
-    const faqQuestions = document.querySelectorAll(".faq-question");
-    faqQuestions.forEach(q => {
+    mobileToggle?.addEventListener("click", () => { mobileNav.classList.add("active"); document.body.style.overflow = "hidden"; });
+    closeNav?.addEventListener("click", () => { mobileNav.classList.remove("active"); document.body.style.overflow = "auto"; });
+    document.querySelectorAll(".mobile-nav a").forEach(link => link.addEventListener("click", () => { mobileNav.classList.remove("active"); document.body.style.overflow = "auto"; }));
+
+    // FAQ toggles
+    document.querySelectorAll(".faq-question").forEach(q => {
         q.addEventListener("click", () => {
-            const answer = q.nextElementSibling;
+            const ans = q.nextElementSibling;
             const icon = q.querySelector("i");
-            document.querySelectorAll(".faq-answer.active").forEach(open => {
-                if(open !== answer) { open.classList.remove("active"); open.previousElementSibling.querySelector("i").classList.remove("fa-chevron-up"); open.previousElementSibling.querySelector("i").classList.add("fa-chevron-down"); }
-            });
-            answer.classList.toggle("active");
-            if(answer.classList.contains("active")) { icon.classList.remove("fa-chevron-down"); icon.classList.add("fa-chevron-up"); } 
-            else { icon.classList.remove("fa-chevron-up"); icon.classList.add("fa-chevron-down"); }
+            document.querySelectorAll(".faq-answer.active").forEach(open => { if(open !== ans) { open.classList.remove("active"); open.previousElementSibling.querySelector("i").classList.replace("fa-chevron-up", "fa-chevron-down"); } });
+            ans.classList.toggle("active");
+            if(ans.classList.contains("active")) icon.classList.replace("fa-chevron-down", "fa-chevron-up");
+            else icon.classList.replace("fa-chevron-up", "fa-chevron-down");
         });
     });
-    
-    // Smooth scroll
+
+    // smooth scroll
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener("click", function(e) {
             e.preventDefault();
             const target = document.querySelector(this.getAttribute("href"));
-            if(target) { target.scrollIntoView({ behavior: "smooth", block: "start" }); }
+            if(target) target.scrollIntoView({ behavior: "smooth", block: "start" });
             if(mobileNav.classList.contains("active")) mobileNav.classList.remove("active");
             document.body.style.overflow = "auto";
         });
     });
-    
-    // Header scroll
     window.addEventListener("scroll", () => {
         const header = document.querySelector("header");
-        if(window.scrollY > 50) header.style.padding = "10px 0";
-        else header.style.padding = "16px 0";
+        if(window.scrollY > 40) header.style.padding = "0.5rem 0";
+        else header.style.padding = "0.8rem 0";
     });
-    
-    // WhatsApp balonu sürekli açık - hiç kaybolmaz
-    // (Herhangi bir gizleme kodu eklenmemiştir, balon her zaman görünür)
 </script>
 </body>
 </html>
